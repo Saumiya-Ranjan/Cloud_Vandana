@@ -1,0 +1,52 @@
+body{
+    background-color: #0d99e8;
+}
+h1{
+    text-align: center;
+    color: #FFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formBox{
+    background-color: #FFF;
+    padding:20px;
+    margin:0px 180px 0px;
+}
+form{
+    padding: 0px 30px 0px 0px;
+}
+.input-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:2rem;
+}
+input, select {
+    margin: 10px;
+    padding: 5px;
+    width:  100%;
+    border: 1px solid black;
+}
+#gender{
+    margin: none;
+    padding: none;
+    width: auto;
+}
+label {
+    margin: 10px;
+}
+
+#submit, #reset {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    cursor:pointer;
+}
+#submit {
+    background-color: #0d99e8;
+    color: #FFF;
+}
+#reset {
+    background-color: #FF0000;
+    color: #FFF;
+}
